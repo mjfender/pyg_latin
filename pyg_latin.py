@@ -1,9 +1,7 @@
 
 def translate():
     print 'Welcome to the Pig Latin Translator!'
-
-    # Start coding here!
-    original = raw_input("Enter a word:")
+    original = raw_input("Please enter a word to translate:")
 
     #check if phrase is present + valid (no numbers)
     if len(original) > 0 and original.isalpha():
